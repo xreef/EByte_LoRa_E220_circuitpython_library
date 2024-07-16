@@ -2,7 +2,7 @@
 # EBYTE LoRa E220 Series for CircuitPython
 #
 # AUTHOR:  Renzo Mischianti
-# VERSION: 0.0.1
+# VERSION: 0.0.2
 #
 # This library is based on the work of:
 # https://www.mischianti.org/category/my-libraries/lora-e220-devices/
@@ -441,10 +441,10 @@ class LoRaE220:
             logger.debug("AUX HIGH!")  # Simplified logging
         else:
             self.managed_delay(wait_no_aux)
-            print("Wait no AUX pin!")  # Simplified logging
+            logger.debug("Wait no AUX pin!")
 
         self.managed_delay(20)
-        print("Complete!")  # Simplified logging
+        logger.debug("Complete!")
         return result
 
     def check_UART_configuration(self, mode) -> ResponseStatusCode:

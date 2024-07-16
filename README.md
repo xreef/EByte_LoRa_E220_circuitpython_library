@@ -16,6 +16,7 @@
 
 
 ### Changelog
+ - 2023-07-16 0.0.2 Fix retrieve transmisison power [Issue](https://github.com/xreef/EByte_LoRa_E220_python_raspberrypi_library/issues/1)
  - 2024-02-06 0.0.1 Fully functional library
 
 ### Installation

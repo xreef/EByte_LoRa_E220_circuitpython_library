@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ebyte-lora-e220-circuitpython
-Version: 0.0.1
+Version: 0.0.2
 Summary: LoRa EBYTE E220 device library complete and tested with Arduino, esp8266, esp32, STM32 and Raspberry Pi Pico. LLCC68
 Home-page: https://github.com/xreef/EByte_LoRa_E220_circuitpython_library
 Author: Renzo Mischianti
